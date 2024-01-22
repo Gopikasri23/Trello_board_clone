@@ -1,0 +1,61 @@
+.add-card
+{
+   background-color: transparent;
+   color:inherit;
+   border: none;
+   cursor: pointer;
+   padding: 10px;
+   width: 100%;
+   text-align: left;
+}
+.add-card:hover
+{
+    background-color:#A1BDD914;
+}
+
+.input-title
+{
+    background-color: #22272B;
+    position: relative;
+    color:inherit;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border-radius: 12px;
+    box-sizing: border-box;
+    height: 162px;
+}
+
+.input-title:focus
+{
+    border: none;
+    outline: none;
+}
+.input-title::placeholder
+{
+   color: #fcfeff;
+   font-weight: 400;
+   font-size: 14px;
+   position: absolute;
+   top:0;
+   left:10px;
+}
+
+.btn
+{
+    cursor: pointer;
+    background-color: blue;
+    margin-top: 10px;
+    border: none;
+    width: 90px;
+    padding:10px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+span
+{
+    cursor: pointer;
+
+}

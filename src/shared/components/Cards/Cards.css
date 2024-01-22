@@ -1,0 +1,33 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 6px;
+    gap:30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.card-pos
+{
+    margin-bottom: 8px; 
+    color: #9FADBC;
+}
+
+.card
+{
+    display: flex;
+    position: relative;
+    background-color: #101204;
+    padding: 10px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+    align-self: flex-start;
+    height: 100%;
+    border-radius: 12px;
+    flex-direction: column;
+    width:30%;
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
